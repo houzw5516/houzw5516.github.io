@@ -1,0 +1,15 @@
+{{/* Academic CV Markdown block: semantic headings and a compact reading layout. */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $split := eq (string $block.design.columns) "2" }}
+<div class="academic-section{{ if $split }} academic-section-split{{ end }}">
+  <header class="academic-heading">
+    {{ with $block.content.title }}
+      {{ if $split }}<h2>{{ . }}</h2>{{ else }}<h1>{{ . }}</h1>{{ end }}
+    {{ end }}
+    {{ with $block.content.subtitle }}<p class="academic-subtitle">{{ . }}</p>{{ end }}
+  </header>
+  {{ with $block.content.text }}
+    <div class="prose academic-copy">{{ $page.RenderString (dict "display" "block") . }}</div>
+  {{ end }}
+</div>

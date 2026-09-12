@@ -1,0 +1,50 @@
+hugoblox:
+  schema: '2.0'
+  identity:
+    name: Hou Zhiwei
+    type: person
+    description: 'Graduate student at XDU researching AI for electronic design automation, computational lithography, and GaN power devices.'
+  theme:
+    mode: light
+    pack: default
+    colors:
+      primary: '#234b70'
+    surfaces:
+      background: '#ffffff'
+      foreground: '#182631'
+      header:
+        background: '#ffffff'
+      footer:
+        background: '#ffffff'
+  typography:
+    pack: academic
+  layout:
+    radius: none
+    spacing: comfortable
+  header:
+    enable: true
+    style: navbar
+    sticky: false
+    align: right
+    search: false
+    theme_toggle: false
+    theme_picker: false
+    language_switcher: false
+    cta:
+      enable: false
+  footer:
+    style: minimal
+    language_switcher: false
+  copyright:
+    notice: '© {year} Hou Zhiwei'
+  content:
+    toc:
+      enable: false
+    reading_time:
+      enable: false
+    citations:
+      style: ieee
+  search:
+    enable: false
+  comments:
+    enable: false

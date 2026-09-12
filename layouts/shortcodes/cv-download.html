@@ -1,0 +1,5 @@
+{{ if fileExists "static/uploads/CV_Hou_Zhiwei.pdf" }}
+<p><a href="{{ "uploads/CV_Hou_Zhiwei.pdf" | relURL }}" download>Download CV (PDF)</a></p>
+{{ else }}
+<p>A downloadable CV will be available here soon.</p>
+{{ end }}
