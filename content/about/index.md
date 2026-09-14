@@ -1,18 +1,18 @@
 ---
-title: About
-summary: 'Hou Zhiwei — graduate student at XDU.'
+title: 关于
+summary: '侯志伟 — 西安电子科技大学研究生。'
 ---
 
-I am a graduate student at Xi'an University of Electronic Science and Technology.
+我是西安电子科技大学的研究生。
 
-My research interests focus on the intersection of artificial intelligence and integrated circuit design.
+我的研究兴趣聚焦于人工智能与集成电路设计的交叉领域。
 
-## Research interests
+## 研究兴趣
 
-- AI for Electronic Design Automation
-- Machine Learning for Chip Design
-- Computational Lithography
-- Semiconductor Device Modeling
-- GaN Power Electronics
+- 电子设计自动化人工智能
+- 芯片设计中的机器学习
+- 计算光刻
+- 半导体器件建模
+- 氮化镓功率电子
 
-Explore my [research](/research/), [publications](/publications/), and [projects](/projects/).
+欢迎浏览我的[研究方向](/research/)、[论文发表](/publications/)与[项目](/projects/)。

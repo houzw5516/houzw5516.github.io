@@ -1,8 +1,8 @@
 ---
-title: DAMO Lithography Optimization
-summary: AI-driven computational lithography optimization.
+title: DAMO 光刻优化
+summary: 人工智能驱动的计算光刻优化。
 ---
 
-AI-driven computational lithography optimization.
+人工智能驱动的计算光刻优化。
 
-**Technologies:** Deep Learning, OPC, ILT
+**技术栈：** 深度学习、OPC、ILT

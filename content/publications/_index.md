@@ -1,19 +1,19 @@
 ---
-title: Publications
+title: 论文发表
 type: landing
 sections:
   - block: markdown
     content:
-      title: Publications
+      title: 论文发表
       text: |-
         ## 2026
 
-        **[Experimental Study on GaN-on-Silicon AlGaN/GaN HEMTs with a High-k Trench Structure](/publications/gan-high-k-trench/)**
+        **[具有高k槽结构的硅基AlGaN/GaN HEMT实验研究](/publications/gan-high-k-trench/)**
 
-        **Hou Zhiwei** et al.  
+        **侯志伟** 等  
         *Applied Physics Letters*, 2026.
 
-        Publication template. Publication status and bibliographic details are to be confirmed.
+        论文模板。发表状态与文献细节待确认。
     design:
       columns: '1'
 ---

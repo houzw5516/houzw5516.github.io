@@ -1,9 +1,9 @@
 hugoblox:
   schema: '2.0'
   identity:
-    name: Hou Zhiwei
+    name: 侯志伟
     type: person
-    description: 'Graduate student at XDU researching AI for electronic design automation, computational lithography, and GaN power devices.'
+    description: '西电研究生，研究方向包括电子设计自动化人工智能、计算光刻与氮化镓功率器件。'
   theme:
     mode: light
     pack: default
@@ -36,7 +36,7 @@ hugoblox:
     style: minimal
     language_switcher: false
   copyright:
-    notice: '© {year} Hou Zhiwei'
+    notice: '© {year} 侯志伟'
   content:
     toc:
       enable: false

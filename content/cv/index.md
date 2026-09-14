@@ -1,21 +1,21 @@
 ---
-title: Curriculum Vitae
-summary: Academic background and research interests of Hou Zhiwei.
+title: 个人简历
+summary: 侯志伟的教育背景与研究兴趣。
 ---
 
 {{< cv-download >}}
 
-## Education
+## 教育经历
 
-**Graduate Student**  
-Xi'an University of Electronic Science and Technology (XDU)
+**研究生**  
+西安电子科技大学（XDU）
 
-## Research interests
+## 研究兴趣
 
-- AI for Electronic Design Automation (AI4EDA)
-- Machine Learning for Chip Design
-- Computational Lithography
-- Semiconductor Device Simulation
-- GaN Power Devices
+- 电子设计自动化人工智能（AI4EDA）
+- 芯片设计中的机器学习
+- 计算光刻
+- 半导体器件仿真
+- 氮化镓功率器件
 
-See [publications](/publications/) and [projects](/projects/) for further information.
+更多信息请参见[论文发表](/publications/)与[项目](/projects/)。

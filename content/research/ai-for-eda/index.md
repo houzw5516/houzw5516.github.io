@@ -1,8 +1,8 @@
 ---
-title: AI for EDA
-summary: Artificial intelligence for electronic design automation.
+title: 电子设计自动化人工智能
+summary: 面向电子设计自动化的人工智能技术。
 ---
 
-Artificial intelligence techniques for electronic design automation, including timing prediction, placement optimization and routing optimization.
+面向电子设计自动化的人工智能技术，包括时序预测、布局优化与布线优化。
 
-Related project: [OpenROAD + GNN Timing Prediction](/projects/openroad-gnn/).
+相关项目：[OpenROAD + GNN 时序预测](/projects/openroad-gnn/)。

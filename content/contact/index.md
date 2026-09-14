@@ -1,8 +1,8 @@
 ---
-title: Contact
-summary: Connect with Hou Zhiwei.
+title: 联系方式
+summary: 与侯志伟取得联系。
 ---
 
-**GitHub:** [houzw5516](https://github.com/houzw5516)
+**GitHub：**[houzw5516](https://github.com/houzw5516)
 
-**Homepage:** [xduaiic.me](https://xduaiic.me/)
+**主页：**[xduaiic.me](https://xduaiic.me/)

@@ -1,8 +1,8 @@
 ---
 title: UnityChipForXiangShan
-summary: AI-assisted chip design and verification environment.
+summary: 人工智能辅助芯片设计与验证环境。
 ---
 
-AI-assisted chip design and verification environment.
+人工智能辅助芯片设计与验证环境。
 
-**Technologies:** Docker, Python, RISC-V
+**技术栈：** Docker、Python、RISC-V

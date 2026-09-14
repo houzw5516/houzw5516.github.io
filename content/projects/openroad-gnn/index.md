@@ -1,8 +1,8 @@
 ---
-title: OpenROAD + GNN Timing Prediction
-summary: Machine learning methods for timing prediction and optimization in open-source EDA flows.
+title: OpenROAD + GNN 时序预测
+summary: 面向开源 EDA 流程的时序预测与优化机器学习方法。
 ---
 
-Machine learning methods for timing prediction and optimization in open-source EDA flows.
+面向开源 EDA 流程的时序预测与优化机器学习方法。
 
-**Technologies:** OpenROAD, PyTorch, DGL, GNN
+**技术栈：** OpenROAD、PyTorch、DGL、GNN

@@ -1,6 +1,6 @@
 ---
-title: Semiconductor Devices
-summary: GaN power devices, dielectric engineering, and TCAD simulation.
+title: 半导体器件
+summary: 氮化镓功率器件、介质工程与 TCAD 仿真。
 ---
 
-Advanced GaN power devices, high-k dielectric engineering and TCAD simulation.
+先进氮化镓功率器件、高k介质工程与 TCAD 仿真。
