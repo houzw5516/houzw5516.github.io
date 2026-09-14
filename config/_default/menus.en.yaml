@@ -1,0 +1,8 @@
+main:
+  - {name: Home, url: '/en/', weight: 10}
+  - {name: About, url: '/en/about/', weight: 20}
+  - {name: Research, url: '/en/research/', weight: 30}
+  - {name: Publications, url: '/en/publications/', weight: 40}
+  - {name: Projects, url: '/en/projects/', weight: 50}
+  - {name: CV, url: '/en/cv/', weight: 60}
+  - {name: Contact, url: '/en/contact/', weight: 70}

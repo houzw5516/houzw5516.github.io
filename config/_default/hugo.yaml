@@ -17,6 +17,18 @@ hasCJKLanguage: true
 defaultContentLanguageInSubdir: false
 removePathAccents: true
 
+languages:
+  zh:
+    locale: zh
+    label: 中文
+    title: 侯志伟
+    weight: 1
+  en:
+    locale: en
+    label: English
+    title: Hou Zhiwei
+    weight: 2
+
 ############################
 ## PAGE OPTIONS
 ############################

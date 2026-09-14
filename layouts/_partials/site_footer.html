@@ -1,3 +1,7 @@
 <footer style="max-width:960px;margin:3rem auto 0;padding:1.5rem;border-top:1px solid #e1e6ea;color:#566573;font-size:.85rem;text-align:center">
+  {{ if eq .Site.Language.Lang "en" }}
+  © {{ now.Year }} Hou Zhiwei · Built with <a href="https://gohugo.io/">Hugo</a> and <a href="https://hugoblox.com/templates/academic-cv">Hugo Blox Academic CV</a>
+  {{ else }}
   © {{ now.Year }} 侯志伟 · 基于 <a href="https://gohugo.io/">Hugo</a> 与 <a href="https://hugoblox.com/templates/academic-cv">Hugo Blox Academic CV</a> 构建
+  {{ end }}
 </footer>

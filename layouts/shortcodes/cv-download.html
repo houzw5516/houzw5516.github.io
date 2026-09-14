@@ -1,5 +1,13 @@
 {{ if fileExists "static/uploads/CV_Hou_Zhiwei.pdf" }}
+{{ if eq .Page.Lang "en" }}
+<p><a href="{{ "uploads/CV_Hou_Zhiwei.pdf" | relURL }}" download>Download CV (PDF)</a></p>
+{{ else }}
 <p><a href="{{ "uploads/CV_Hou_Zhiwei.pdf" | relURL }}" download>下载简历（PDF）</a></p>
+{{ end }}
+{{ else }}
+{{ if eq .Page.Lang "en" }}
+<p>A downloadable CV will be available here soon.</p>
 {{ else }}
 <p>可下载的简历即将上线。</p>
+{{ end }}
 {{ end }}
