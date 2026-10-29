@@ -1,19 +1,33 @@
 ---
-title: Experimental Study on GaN-on-Silicon AlGaN/GaN HEMTs with a High-k Trench Structure
-summary: 'Publication template — publication status and bibliographic details to be confirmed.'
-# A regular page prevents incomplete metadata from being exported as a verified citation.
+title: Electric-field redistribution via high-k dielectric trench in GaN-on-Si AlGaN/GaN HEMTs
+summary: 'Drain-side PZT dielectric engineering for electric-field redistribution in GaN-on-Si HEMTs, studied through TCAD simulation and device experiments.'
 type: page
-citation_authors: 'Hou Zhiwei et al.'
+date: 2026-10-26
+citation_authors: 'Zhen Cao, **Zhiwei Hou**, Qi Sun, Guohao Yu, Bingliang Zhang, Biao Hou, Licheng Jiao, and Yintang Yang'
 journal: Applied Physics Letters
 publication_year: 2026
-publication_status: template
+publication_status: published
+volume: 129
+issue: 17
+article_number: 173502
+doi: 10.1063/5.0345413
+bibtex_url: /publications/gan-high-k-trench.bib
 ---
 
-**Author:** Hou Zhiwei et al.  
-**Journal:** Applied Physics Letters  
-**Year:** 2026
+**Authors:** Zhen Cao, **Zhiwei Hou**, Qi Sun, Guohao Yu, Bingliang Zhang, Biao Hou, Licheng Jiao, and Yintang Yang
 
-> Publication template — publication status and bibliographic details are to be confirmed.
+**Journal:** *Applied Physics Letters* **129**(17), 173502 (2026)\
+**Published:** October 26, 2026\
+**DOI:** [10.1063/5.0345413](https://doi.org/10.1063/5.0345413)
 
-<!-- Replace this template with the confirmed author list, abstract, DOI, volume,
-issue, article number, and a permitted PDF link when available. -->
+[Publisher page ↗](https://doi.org/10.1063/5.0345413) · [Download BibTeX](/publications/gan-high-k-trench.bib)
+
+## Research overview
+
+This work investigates how a drain-side high-k PZT trench reshapes electric fields in GaN-on-Si AlGaN/GaN HEMTs. Two-dimensional TCAD simulations and device experiments examine the role of dielectric permittivity in voltage handling and assess breakdown and dynamic ON-resistance performance.
+
+This is a brief research overview; the publisher page provides the official abstract and article.
+
+## Citation
+
+Zhen Cao, **Zhiwei Hou**, Qi Sun, Guohao Yu, Bingliang Zhang, Biao Hou, Licheng Jiao, and Yintang Yang, “Electric-field redistribution via high-k dielectric trench in GaN-on-Si AlGaN/GaN HEMTs,” *Applied Physics Letters* **129**(17), 173502 (2026). [doi:10.1063/5.0345413](https://doi.org/10.1063/5.0345413).

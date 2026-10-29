@@ -43,11 +43,12 @@ sections:
     content:
       title: Publications
       text: |-
-        **2026 · Publication template — details to be confirmed**
+        **2026 · Published**
 
-        [Experimental Study on GaN-on-Silicon AlGaN/GaN HEMTs with a High-k Trench Structure](/en/publications/gan-high-k-trench/)
+        [Electric-field redistribution via high-k dielectric trench in GaN-on-Si AlGaN/GaN HEMTs](/en/publications/gan-high-k-trench/)
 
-        **Hou Zhiwei** et al. · *Applied Physics Letters*
+        Zhen Cao, **Zhiwei Hou**, Qi Sun, Guohao Yu, Bingliang Zhang, Biao Hou, Licheng Jiao, and Yintang Yang\
+        *Applied Physics Letters* **129**(17), 173502 (2026). [DOI](https://doi.org/10.1063/5.0345413)
 
         [All publications →](/en/publications/)
     design:

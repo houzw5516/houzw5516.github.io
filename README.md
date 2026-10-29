@@ -9,5 +9,7 @@ in Markdown under `content/`; GitHub Actions publishes `main` to GitHub Pages.
 - Deployment, DNS, Git commands and CV upload: [DEPLOYMENT.md](DEPLOYMENT.md)
 - Theme versions and customization: [THEME.md](THEME.md)
 
-The publication entry is a template pending confirmation. Add the actual CV at
+The GaN HEMT publication entry is verified against the publisher record for
+[doi:10.1063/5.0345413](https://doi.org/10.1063/5.0345413), with bilingual details
+and a BibTeX download. Add the actual CV at
 `static/uploads/CV_Hou_Zhiwei.pdf` to enable its download link.

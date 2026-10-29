@@ -43,11 +43,12 @@ sections:
     content:
       title: 论文发表
       text: |-
-        **2026 · 论文模板 — 详情待确认**
+        **2026 · 已发表**
 
-        [具有高k槽结构的硅基AlGaN/GaN HEMT实验研究](/publications/gan-high-k-trench/)
+        [Electric-field redistribution via high-k dielectric trench in GaN-on-Si AlGaN/GaN HEMTs](/publications/gan-high-k-trench/)
 
-        **侯志伟** 等 · *Applied Physics Letters*
+        Zhen Cao, **Zhiwei Hou**, Qi Sun, Guohao Yu, Bingliang Zhang, Biao Hou, Licheng Jiao, and Yintang Yang\
+        *Applied Physics Letters* **129**(17), 173502 (2026). [DOI](https://doi.org/10.1063/5.0345413)
 
         [全部论文 →](/publications/)
     design:

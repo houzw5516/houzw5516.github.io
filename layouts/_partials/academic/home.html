@@ -30,7 +30,17 @@
   <section class="publication-band" aria-labelledby="publication-title"><div class="shell home-section">
     <div class="section-heading"><div><p class="eyebrow">02 / PUBLICATIONS</p><h2 id="publication-title">{{ (index .Params.sections 2).content.title }}</h2></div><a class="text-link" href="{{ (.Site.GetPage "publications").RelPermalink }}">{{ if $en }}All publications{{ else }}全部论文{{ end }}{{ partial "academic/icon.html" "arrow" }}</a></div>
     {{ with .Site.GetPage "publications/gan-high-k-trench" }}
-    <article class="publication-entry"><div class="publication-year">{{ .Params.publication_year }}<span>{{ partial "academic/icon.html" "book" }}</span></div><div><span class="status-note">{{ if $en }}Template · Details to be confirmed{{ else }}论文模板 · 发表信息待确认{{ end }}</span><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Params.citation_authors }}<span class="citation-separator">/</span><em>{{ .Params.journal }}</em></p></div><a class="entry-arrow" href="{{ .RelPermalink }}" aria-label="{{ .Title }}">{{ partial "academic/icon.html" "arrow" }}</a></article>
+    <article class="publication-entry">
+      <div class="publication-year">{{ .Params.publication_year }}<span>{{ partial "academic/icon.html" "book" }}</span></div>
+      <div>
+        <span class="status-note">{{ if eq .Params.publication_status "published" }}{{ if $en }}Published · {{ .Date.Format "Jan 2, 2006" }}{{ else }}已发表 · {{ .Date.Format "2006年1月2日" }}{{ end }}{{ else }}{{ if $en }}Details to be confirmed{{ else }}发表信息待确认{{ end }}{{ end }}</span>
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p>{{ .Params.citation_authors | markdownify }}</p>
+        <p><em>{{ .Params.journal }}</em>{{ with .Params.volume }} <strong>{{ . }}</strong>{{ end }}{{ with .Params.issue }}({{ . }}){{ end }}{{ with .Params.article_number }}, {{ . }}{{ end }} ({{ .Params.publication_year }})</p>
+        <p>{{ with .Params.doi }}<a class="text-link" href="https://doi.org/{{ . }}">DOI {{ partial "academic/icon.html" "external" }}</a>{{ end }}{{ with .Params.bibtex_url }}<span class="citation-separator">/</span><a class="text-link" href="{{ . }}">BibTeX {{ partial "academic/icon.html" "arrow" }}</a>{{ end }}</p>
+      </div>
+      <a class="entry-arrow" href="{{ .RelPermalink }}" aria-label="{{ .Title }}">{{ partial "academic/icon.html" "arrow" }}</a>
+    </article>
     {{ end }}
   </div></section>
   <section class="home-section shell" aria-labelledby="projects-title">
