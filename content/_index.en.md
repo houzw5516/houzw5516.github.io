@@ -2,6 +2,18 @@
 title: Hou Zhiwei
 summary: 'Graduate student at XDU. AI for EDA, computational lithography, and semiconductor devices.'
 type: landing
+profile_label: ACADEMIC PROFILE / XDU
+alternate_name: 侯志伟
+figure_title: AI × Integrated Circuits
+figure_caption: From intelligent design to semiconductor devices
+figure_alt: A line drawing of an integrated circuit and its connections, representing research at the intersection of AI and chip design.
+interest_tags: [AI4EDA, ML for Chip Design, Computational Lithography, Device Simulation, GaN Power Devices]
+contact_title: Let's stay in touch
+contact_text: Explore my projects on GitHub or find my contact information.
+profile_links:
+  - {label: Explore research, url: '/en/research/', style: button-primary}
+  - {label: Curriculum vitae, url: '/en/cv/', style: button-secondary}
+  - {label: GitHub, url: 'https://github.com/houzw5516', style: button-secondary, icon: external}
 sections:
   - block: markdown
     content:
@@ -12,7 +24,6 @@ sections:
 
         My research interests focus on the intersection of **artificial intelligence and integrated circuit design**, spanning electronic design automation, computational lithography, and semiconductor devices.
 
-        [GitHub](https://github.com/houzw5516) · [About me](/en/about/) · [Curriculum vitae](/en/cv/) · [Contact](/en/contact/)
     design:
       columns: '1'
   - block: markdown

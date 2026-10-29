@@ -3,6 +3,8 @@ title: 具有高k槽结构的硅基AlGaN/GaN HEMT实验研究
 summary: '论文模板 — 发表状态与文献细节待确认。'
 # 普通页面可避免未完成的元数据被导出为已验证引用。
 type: page
+citation_authors: '侯志伟 等'
+journal: Applied Physics Letters
 publication_year: 2026
 publication_status: template
 ---

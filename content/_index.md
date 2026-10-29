@@ -2,6 +2,18 @@
 title: 侯志伟
 summary: '西电研究生。研究方向为电子设计自动化人工智能、计算光刻与半导体器件。'
 type: landing
+profile_label: 个人科研主页 / ACADEMIC PROFILE
+alternate_name: HOU ZHIWEI
+figure_title: AI × Integrated Circuits
+figure_caption: 从智能设计到半导体器件
+figure_alt: 芯片与电路互连的线框示意图，象征人工智能与集成电路设计的交叉研究。
+interest_tags: [AI4EDA, 芯片设计机器学习, 计算光刻, 半导体器件仿真, GaN 功率器件]
+contact_title: 保持交流
+contact_text: 通过 GitHub 了解我的项目，或查看联系方式。
+profile_links:
+  - {label: 了解我的研究, url: '/research/', style: button-primary}
+  - {label: 个人简历, url: '/cv/', style: button-secondary}
+  - {label: GitHub, url: 'https://github.com/houzw5516', style: button-secondary, icon: external}
 sections:
   - block: markdown
     content:
@@ -12,7 +24,6 @@ sections:
 
         我的研究兴趣聚焦于**人工智能与集成电路设计的交叉领域**，涵盖电子设计自动化、计算光刻与半导体器件。
 
-        [GitHub](https://github.com/houzw5516) · [关于我](/about/) · [个人简历](/cv/) · [联系方式](/contact/)
     design:
       columns: '1'
   - block: markdown

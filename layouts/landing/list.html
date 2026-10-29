@@ -1,0 +1,3 @@
+{{ define "main" }}
+{{ if .IsHome }}{{ partial "academic/home.html" . }}{{ else }}<main id="main-content">{{ partial "landing_page.html" . }}</main>{{ end }}
+{{ end }}

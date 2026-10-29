@@ -1,5 +1,6 @@
 ---
 title: DAMO Lithography Optimization
+technologies: [Deep Learning, OPC, ILT]
 summary: AI-driven computational lithography optimization.
 ---
 

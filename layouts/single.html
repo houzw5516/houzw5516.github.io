@@ -1,7 +1,9 @@
 {{ define "main" }}
-<main class="academic-section">
+<main id="main-content" class="academic-section article-shell">
   <article>
+    <a class="back-link" href="{{ if and .Parent (not .Parent.IsHome) }}{{ .Parent.RelPermalink }}{{ else }}{{ .Site.Home.RelPermalink }}{{ end }}">{{ partial "academic/icon.html" "arrow" }}{{ if and .Parent (not .Parent.IsHome) }}{{ .Parent.Title }}{{ else }}{{ if eq .Language.Lang "en" }}Home{{ else }}首页{{ end }}{{ end }}</a>
     <header class="academic-heading"><h1>{{ .Title }}</h1></header>
+    <div class="article-rule" aria-hidden="true"></div>
     <div class="prose academic-copy">{{ .Content }}</div>
   </article>
 </main>

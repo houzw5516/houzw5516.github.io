@@ -3,6 +3,8 @@ title: Experimental Study on GaN-on-Silicon AlGaN/GaN HEMTs with a High-k Trench
 summary: 'Publication template — publication status and bibliographic details to be confirmed.'
 # A regular page prevents incomplete metadata from being exported as a verified citation.
 type: page
+citation_authors: 'Hou Zhiwei et al.'
+journal: Applied Physics Letters
 publication_year: 2026
 publication_status: template
 ---
